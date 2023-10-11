@@ -1,0 +1,47 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  width: 900px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gallery__img {
+  background-image: url("../images/photo1.jpg");
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.button-container__button-next,
+.button-container__button-previous {
+  background-color: rgb(59, 52, 52);
+  border-radius: 6px;
+  color: white;
+  width: 150px;
+  padding: 10px;
+}
+
+.button-container__button-next:hover {
+  border: 5px solid rgb(236, 168, 149);
+}
+
+.button-container__button-previous:hover {
+  border: 5px solid rgb(236, 168, 149);
+}
